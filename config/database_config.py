@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 from typing import Dict, Optional
 
-# cấu hình của toàn bộ database
+# Database config
 class DatabaseConfig:
     def validate(self) -> None:
         for key, value in self.__dict__.items():

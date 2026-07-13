@@ -3,7 +3,7 @@ from typing import Optional, List, Dict, Any
 from config.database_config import get_database_config
 import os
 
-# cấu hình kết nối của spark
+# Spark config
 class SparkConnect:
     def __init__(self,
                  app_name: str,
